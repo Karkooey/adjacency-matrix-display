@@ -1,8 +1,13 @@
-# sdl2-sims
-Simulations and other various graphical demos.
+# Adjacency matrix
 
-## Setup
+> Interactive adjacency matrix
 
+
+### Setup
+
+* MacOS:
+ * Homebrew
+ * make (`brew install make`)
 * Ubuntu:
     * Make sure SDL2 is installed
     * `apt-get install libsdl2-dev`
@@ -13,6 +18,10 @@ Simulations and other various graphical demos.
     * `dnf install SDL2-devel`
     * `make`
 
->note: Try to avoid building without `make build`. But if needed, then make sure the output executable has the `.o` extension. (`.gitignore` is ignoring `.o`
+ 
+
+### Gallery
+
+<center>![adj-mat](https://user-images.githubusercontent.com/68668573/104797195-20a85580-5821-11eb-9277-f097413a8974.png)</center>
 
 
