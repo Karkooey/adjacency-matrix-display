@@ -6,8 +6,9 @@
 ### Setup
 
 * MacOS:
-	* Homebrew
+	* Homebrew ([https://brew.sh](https://brew.sh))
 	* make (`brew install make`)
+	* SDL2 (`brew install sdl2`)
 * Ubuntu:
     * Make sure SDL2 is installed
     * `apt-get install libsdl2-dev`
