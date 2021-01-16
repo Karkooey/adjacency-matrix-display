@@ -19,7 +19,15 @@
     * `dnf install SDL2-devel`
     * `make`
 
- 
+### Controls
+
+* `click` (the matrix top-left) to make a connection between nodes.
+* `right-click` to disconnect.
+* `click` a node (pink/red) to select:
+	* `click` to move the node to that spot.
+	* `click` another node to connect the two.
+* `right-click` to unselect the node.
+* Press `space-bar` to randomly place all nodes
 
 ### Gallery
 
