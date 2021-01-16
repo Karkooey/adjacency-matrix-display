@@ -22,6 +22,6 @@
 
 ### Gallery
 
-<center>![adj-mat](https://user-images.githubusercontent.com/68668573/104797195-20a85580-5821-11eb-9277-f097413a8974.png)</center>
+![adj-mat](https://user-images.githubusercontent.com/68668573/104797195-20a85580-5821-11eb-9277-f097413a8974.png)
 
 
