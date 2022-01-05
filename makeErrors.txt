@@ -1,0 +1,13 @@
+gcc -std=c99 ./src/*.c -lSDL2 -o "mySDLapp"".o"
+./src/model.c: In function ‘model_setNodePositions’:
+./src/model.c:29:34: error: storage size of ‘t’ isn’t known
+   29 |                 struct timespec  t;
+      |                                  ^
+./src/model.c:30:17: warning: implicit declaration of function ‘clock_gettime’ [-Wimplicit-function-declaration]
+   30 |                 clock_gettime(CLOCK_REALTIME, &t);
+      |                 ^~~~~~~~~~~~~
+./src/model.c:30:31: error: ‘CLOCK_REALTIME’ undeclared (first use in this function)
+   30 |                 clock_gettime(CLOCK_REALTIME, &t);
+      |                               ^~~~~~~~~~~~~~
+./src/model.c:30:31: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [makefile:6: build] Error 1
