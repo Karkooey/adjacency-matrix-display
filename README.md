@@ -11,8 +11,12 @@
 	* SDL2 -  (`brew install sdl2`)
     * Make the program with `make` in the same directory as the Makefile
     * Run the program `make run`
+
+    
 * MacOS: Troubleshooting
- * run make with `make &> makeErrors.txt` to get a log file and share/fix
+	* run make with `make &> makeErrors.txt` to get a log file and share/fix
+
+
 * Ubuntu:
     * Make sure SDL2 is installed
     * `apt-get install libsdl2-dev`
