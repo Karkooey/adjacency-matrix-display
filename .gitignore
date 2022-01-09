@@ -34,6 +34,10 @@ git-to-eclipse.sh
 *.so.*
 *.dylib
 
+# Misc
+
+*.bck
+
 # Executables
 *.exe
 *.out
